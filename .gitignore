@@ -1,0 +1,94 @@
+# 🔒 .gitignore - Arquivos que NÃO devem ir para o Git
+
+# ⚠️ CRÍTICO: Variáveis de Ambiente (API Keys!)
+.env
+.env.local
+.env.*.local
+
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 📦 UV (Gerenciador de Pacotes)
+.venv/
+venv/
+ENV/
+env/
+
+# 🧪 Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# 💻 IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 📝 Logs
+*.log
+logs/
+*.pid
+
+# 🗄️ Banco de Dados (se usar SQLite)
+*.db
+*.sqlite
+*.sqlite3
+
+# 📊 Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# 🎯 Temporários
+*.tmp
+*.bak
+*.cache
+.temp/
+
+# 📦 Node (se usar npm para frontend)
+node_modules/
+package-lock.json
+
+# 🎨 Assets temporários
+*.psd
+*.ai
+
+# 🚀 Deploy
+.vercel/
+.netlify/
+
+# 📚 Documentação gerada
+site/
+docs/_build/
+
+# ⚙️ Configurações locais
+local_settings.py
+instance/
+.webassets-cache
+
+# 🔑 Certificados e chaves
+*.pem
+*.key
+*.cert

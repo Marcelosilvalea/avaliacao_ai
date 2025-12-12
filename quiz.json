@@ -1,0 +1,18 @@
+[
+    {
+        "pergunta": "Qual é a capital da França?",
+        "resposta": "Paris"
+    },
+    {
+        "pergunta": "Quem escreveu 'Dom Quixote'?",
+        "resposta": "Miguel de Cervantes"
+    },
+    {
+        "pergunta": "Quanto é 9 x 7?",
+        "resposta": "63"
+    },
+    {
+        "pergunta": "Qual é o maior planeta do Sistema Solar?",
+        "resposta": "Júpiter"
+    }
+]
